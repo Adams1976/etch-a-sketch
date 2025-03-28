@@ -49,3 +49,28 @@ body{
     background-color: rebeccapurple;
     color: aliceblue;
 }
+@media (max-width: 500px){
+    .container{
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+.block {
+    width: 360px; 
+    height: 400px; 
+    margin-top: 20px;
+}
+.block_content{
+    margin-top: 10px;
+}
+.block_content h1 {
+    font-size: 3rem;
+}
+.btn_container{
+    gap: 25px;
+    margin-top: 50px;
+}
+.btn_container button{
+    font-size: 13px;
+    padding: 7px 25px ;
+}
+}
