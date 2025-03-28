@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(167, 163, 154);
+    background-image: url(./4fdfc15e4339422e434b294f3382de0a.png);
 }
 .container{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    align-items: center;
+    
 }
 .block {
     display: flex;
@@ -13,8 +13,11 @@ body{
     width: 864px; 
     height: 800px; 
     margin-top: 100px;
-    box-sizing: border-box; }
-
+    box-sizing: border-box; 
+}
+.block_content{
+    margin-top: 100px;
+}
 .blocki {
     flex: 0 0 calc(100% / 16 ); 
     height: calc(100% / 16 ); 
@@ -38,7 +41,7 @@ body{
     font-weight: 600;
     border-radius: 10px;
     padding: 15px 50px ;
-    background-color: rgb(196, 241, 241);
+    background-color: rgb(240, 241, 241);
     transition: 0.5s;
 }
 
